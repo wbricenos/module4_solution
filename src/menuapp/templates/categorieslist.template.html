@@ -1,0 +1,8 @@
+<!-- Template asociated to categories.components -->
+<!-- List all categories -->
+<ul>
+  <li ng-repeat="item in $ctrl.items"
+	  ui-sref="itemsState({categoryShortName:'{{item.short_name}}'})">
+    {{item.short_name}} | {{item.name}} 
+  </li>
+</ul>
