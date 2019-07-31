@@ -1,0 +1,72 @@
+body {
+  font-size: 1.2em;
+}
+
+.error {
+  color: #cfa553;
+  font-weight: bold;
+  display: none;
+}
+
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+
+.buttonStyle {
+  border: 1px solid #428bca;
+  background: #428bca;
+  padding: 6px;
+  border-radius: 5px;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+.buttonVisited {
+  border: 1px solid #5cb85c;
+  background: #5cb85c;
+  padding: 6px;
+  border-radius: 5px;
+  color: #f9f9f9;
+  text-decoration: none;
+  cursor: no-drop;
+}
+
+span.buttonVisited {
+  border: 1px solid #5cb85c;
+  background: #5cb85c;
+  padding: 4px;
+  border-radius: 5px;
+  color: #f9f9f9;
+}
+
+span.buttonVisited:nth-child(2) {
+  border: 1px solid #d9534f;
+  background: #d9534f;
+  padding: 4px;
+  border-radius: 5px;
+  color: #f9f9f9;
+}
+
+.thisItem {
+  border: 1px solid #5bc0de;
+  background: #5bc0de;
+  padding: 3px;
+  border-radius: 5px;
+  color: #f9f9f9;
+}
+
+a.buttonStyle {
+  border: 1px solid #428bca;*/
+  background: #428bca;
+  padding: 4px;
+  border-radius: 5px;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
